@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lido-Marina-Piccola", "Lido-Marina-Piccola\Lido-Marina-Piccola.csproj", "{8D88905D-FAF6-4B3E-B658-B67F9DEE9A60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D88905D-FAF6-4B3E-B658-B67F9DEE9A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D88905D-FAF6-4B3E-B658-B67F9DEE9A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D88905D-FAF6-4B3E-B658-B67F9DEE9A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D88905D-FAF6-4B3E-B658-B67F9DEE9A60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {843F36AF-166A-4D21-A978-A5D834EFE611}
+	EndGlobalSection
+EndGlobal

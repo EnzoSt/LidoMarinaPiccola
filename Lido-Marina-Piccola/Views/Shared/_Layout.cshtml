@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <title>@ViewBag.Title - Applicazione ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="container-nav">
+        <nav>
+            <div>
+                <a href="./Index#home"><img class="logo-navbar" src="~/Assets/logo-marina-piccola.png" alt="Logo" /></a>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="./Index#dove_siamo">DOVE SIAMO</a></li>
+                    <li>@Html.ActionLink("EVENTI", "Event", "Home")</li>
+                    <li><a href="#contact">CONTATTI</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="body_content">
+        @RenderBody()
+        <div class="contact">
+            <a name="contact"></a>
+            <h3>CONTATTACI</h3>
+            <div class="info">
+                <div class="info-card">
+                    <img class="info-img img1" src="~/Assets/contatti-struttura.jpg" alt="Struttura" />
+                    <p><strong>STRUTTURA</strong></p>
+                    <p>+ 39 333 7916283</p>
+                    <p>Augusto</p>
+                </div>
+                <div class="info-card">
+                    <img class="info-img img2" src="~/Assets/contatti-spiaggia.jpg" alt="spiaggia" />
+                    <p><strong>SPIAGGIA</strong></p>
+                    <p>+39 334 3084824</p>
+                    <p>Stefano</p>
+                </div>
+                <div class="info-card">
+                    <img class="info-img img3" src="~/Assets/contatti-ristorante.jpg" alt="ristorante" />
+                    <p><strong>Ristorante</strong></p>
+                    <p>+39 3397716101</p>
+                    <p>Gerardo</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="top-footer">
+                <div class="center-row"></div>
+                <div class="social-section">
+                    <img class="img-social" src="~/Assets/fb.png" />
+                    <img class="img-social" src="~/Assets/ig.png" />
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; COPYRIGHT 2022 | ALL RIGHTS RESERVED </p>
+            </div>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

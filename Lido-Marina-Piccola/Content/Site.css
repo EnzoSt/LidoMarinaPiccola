@@ -1,0 +1,343 @@
+﻿:root {
+    --Lato-font: 'Lato', sans-serif;
+    font-family: var(--Lato-font);
+    --blue-light: #A2D5F4;
+    --blue-dark: #00B2DD;
+    --brown: #372821;
+    /* font-size: clamp(2.25rem, 2vw + 1.5rem, 3.25rem); */
+    --font-siz-m: clamp(1em, 1.4vw, 1.7em);
+    --font-siz-xl: clamp(1.3em, 2vw, 2.5em);
+    --logo-width: calc(6rem + 15vw)
+}
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-navbar {
+    width: 13vw;
+    margin-top: 15px;
+    margin-inline: 10vw;
+    margin-bottom: 5rem;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-nav li, .container-nav a {
+    display: inline-flex;
+    list-style-type: none;
+    margin-right: 3vw;
+    margin-left: 1vw;
+    white-space: nowrap;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    color: black;
+    font-size: var(--font-siz-m);
+}
+
+    .container-nav a:hover {
+        color: var(--blue-dark);
+        text-decoration: none;
+    }
+
+.top-section {
+    display: flex;
+    justify-content: center;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+}
+
+.main-img {
+    margin-inline: 1px;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+body {
+    font-family: var(--Lato-font);
+    overflow-x: hidden;
+}
+
+.first-section > p {
+    padding: 2rem;
+    margin-top: 2rem;
+    font-size: var(--font-siz-m);
+    text-align: center;
+}
+
+
+.img-service {
+    width: 50vw;
+    margin-bottom: 3vw;
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+    .second-section > p {
+        padding: 4rem;
+        font-size: var(--font-siz-m);
+    }
+
+.img-second-section {
+    max-width: 50vw;
+}
+
+.first-section {
+    margin-inline: 25vw;
+}
+
+.where-section {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 25vw;
+    align-items: center;
+}
+
+    .where-section p {
+        text-align: center;
+        margin-top: 1rem;
+        padding: 2rem;
+        font-size: var(--font-siz-m);
+    }
+
+.events {
+    margin-block: 5vw;
+    display: flex;
+}
+
+.form-event h3 {
+    margin-bottom: 7rem;
+}
+
+.text-event {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 45vw;
+    margin-bottom: 5rem;
+    align-items: center;
+}
+
+    .text-event > button, .form-button > button {
+        border-radius: 3px;
+        padding: 5px;
+        border: none;
+        padding-inline: 10px;
+        font-weight: 100;
+        color: #ffffffb8;
+        background-color: var(--blue-dark);
+        font-size: var(--font-siz-m);
+        padding-inline: 2vw;
+    }
+
+        .text-event > button:hover, .form-button > button:hover {
+            background-color: var(--blue-light);
+        }
+
+.form-button {
+    display: flex;
+    justify-content: center;
+}
+
+.events-img {
+    min-width: 45vw;
+}
+
+.text-event > p {
+    padding: 4rem;
+    font-size: small;
+    font-size: var(--font-siz-m);
+}
+
+.contact {
+    margin-block: 6vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-siz-m);
+}
+
+.info-img {
+    width: 36rem;
+}
+
+.top-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-social {
+    width: 3.5em;
+}
+
+.social-section {
+    margin-block: 2rem;
+}
+
+.center-row {
+    width: 45vw;
+    height: 2px;
+    background-color: #808080;
+}
+
+.copyright {
+    display: flex;
+    background-color: var(--blue-dark);
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.map {
+    margin-top: 3rem
+}
+
+h3, .h3 {
+    color: var(--blue-dark);
+    font-size: var(--font-siz-xl);
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.copyright p {
+    padding-top: 3px;
+    margin-right: 4vw;
+    margin-top: 5px;
+    font-size: 0.8vw;
+    color: #ffffffa1;
+}
+
+#event-title {
+    margin-bottom: 3rem;
+    margin-top: 0;
+    padding: 3vw;
+    margin-inline: 7vw;
+    text-align: center;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 2em;
+    padding: 24px 12px;
+    font-size: var(--font-siz-m);
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    /* border: 1px solid #ccc0; */
+    border-radius: 4px;
+    margin-bottom: 1em;
+    border: none;
+}
+/* -START- Event CSS*/
+.section-event-page {
+    display: flex;
+}
+
+.first-img-event {
+    width: 58vw;
+}
+
+.text-event-page {
+    font-size: var(--font-siz-m);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: 4vw;
+}
+
+.form-event {
+    margin-block: 7vw;
+    margin-inline: 10vw;
+}
+
+.section-event-form h3 {
+    text-align:center;
+}
+
+.text-event-page > p {
+    text-align: center;
+}
+/* -END- Event CSS*/
+/* .google-maps {
+    position: relative;
+    padding-bottom: 75%; 
+    height: 0;
+    overflow: hidden;
+  }
+  .google-maps > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  } */
+@media screen and (max-width: 992px) {
+    nav, .second-section, .info, .events {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .img-second-section {
+        max-width: 100vw;
+    }
+
+    .section-event-page {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        margin-block: 5vw;
+    }
+
+    .text-event-page {
+        align-items: center;
+    }
+
+    .second-section-event {
+        flex-wrap: wrap;
+    }
+
+    h3, .h3 {
+        margin-bottom: 3rem;
+    }
+}
