@@ -64,3 +64,11 @@ namespace Lido_Marina_Piccola.Utilities
         
     }
 }
+
+namespace MyNamespace
+{
+    public class MyClass
+    {
+
+    } 
+}

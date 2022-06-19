@@ -98,10 +98,11 @@ body {
     margin-bottom: 6rem;
 }
 
-    .second-section > p {
+.second-section > p {
+        text-align: center;
         padding: 4rem;
         font-size: var(--font-siz-m);
-    }
+}
 
 .img-second-section {
     max-width: 50vw;
@@ -135,12 +136,13 @@ body {
 }
 
 .text-event {
+    padding: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-width: 45vw;
     margin-bottom: 5rem;
-    align-items: center;
+    align-items: flex-start;
 }
 
     .text-event > button, .form-button > button {
@@ -169,7 +171,6 @@ body {
 }
 
 .text-event > p {
-    padding: 4rem;
     font-size: small;
     font-size: var(--font-siz-m);
 }
@@ -293,7 +294,7 @@ h3, .h3 {
 }
 
 .section-event-form h3 {
-    text-align:center;
+    text-align: center;
 }
 
 .text-event-page > p {
